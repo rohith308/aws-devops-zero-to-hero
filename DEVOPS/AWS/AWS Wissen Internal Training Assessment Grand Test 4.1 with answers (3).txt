@@ -1,0 +1,569 @@
+
+
+
+1) Which pillar of the AWS Well-Architected Framework recommends monitoring your application's performance?
+
+Performance Efficiency(Correct)
+Operational Excellence
+Security
+Reliability
+
+
+2)Which AWS Route 53 routing policy would you use when you want to route your traffic in an active-passive configuration?
+	 
+Weighted routing policy
+ Failover routing policy(Correct)
+Simple routing policy
+Latency routing policy
+
+3)Which budget types can be created under AWS Budgets (Select three)?
+	 
+Software budget
+Resource budget
+Cost budget(Correct)
+Hardware budget
+Reservation budget(Correct)
+Usage budget(Correct)
+
+4)An IT company would like to move its IT infrastructure from an AWS Region in the US to another AWS Region in Europe. Which of the following represents the correct solution for this use-case?
+ 
+The company should raise a ticket with AWS Support for this infrastructure migration
+ 
+The company should just start creating new resources in the destination AWS Region and then migrate the relevant data and applications into this new AWS Region
+(Correct)
+
+The company should use Database Migration Service to move the resources from source AWS Region to destination AWS Region
+ 
+The company should use CloudFormation to move the resources from source AWS Region to destination AWS Region
+
+
+5)A financial services enterprise plans to enable Multi-Factor Authentication (MFA) for its employees. For ease of travel, they prefer not to use any physical devices to implement MFA. Which of the below options is best suited for this use case?
+	 
+Soft Token MFA device
+U2F security key
+Virtual MFA device
+(Correct)
+Hardware MFA device
+
+6)Which AWS service protects your AWS account by monitoring malicious activity and detecting threats?
+ 
+CloudTrail
+GuardDuty(Correct)
+Trusted Advisor
+CloudWatch
+
+7)An AWS hardware failure has impacted one of your EBS volumes. Which AWS service will alert you of the affected resources and provide a remedial action?
+ 
+AWS Config
+AWS Trusted Advisor
+AWS Personal Health Dashboard
+(Correct)
+ Amazon GuardDuty
+
+
+8)A startup runs its proprietary application on docker containers. As a Cloud Practitioner, which AWS service would you recommend so that the startup can run containers and still have access to the underlying servers?
+	 
+AWS Lambda
+Amazon Elastic Container Service (Amazon ECS)
+(Correct)
+AWS Fargate
+Amazon Elastic Container Registry (ECR)
+
+
+9)A cyber-security agency uses AWS Cloud and wants to carry out security assessments on their own AWS infrastructure without any prior approval from AWS. Which of the following describes/facilitates this practice?
+ 
+Amazon Inspector
+Network Stress Testing
+ AWS Secrets Manager
+ Penetration Testing
+(Correct)
+
+10)An organization maintains separate VPCs for each of its departments. With expanding business, the organization now wants to connect all VPCs for better departmental collaboration. Which AWS service will help the organization tackle the issue effectively?
+	 
+VPC Peering
+Site to Site VPN
+AWS Transit Gateway
+(Correct)
+AWS Direct Connect
+
+11)Data encryption is automatically enabled for which of the following AWS services? (Select two)?
+	 
+Amazon S3 Glacier
+(Correct)
+Amazon EBS volumes
+AWS Storage Gateway
+(Correct)
+Amazon Redshift
+Amazon EFS drives
+
+12)Which AWS service can be used for online analytical processing?
+
+Amazon ElastiCache
+Amazon RDS
+Amazon Redshift
+(Correct)
+Amazon DynamoDB
+
+
+13)Which feature of AWS Cloud offers the ability to innovate faster and rapidly develop, test and launch software applications?
+	 
+Agility
+(Correct)
+Ability to deploy globally in minutes
+Cost savings
+Elasticity
+
+14)Which of the following statements is correct regarding the AWS Elastic File System (EFS) storage service?
+	 
+EC2 instances can access files on an EFS file system across many Availability Zones, regions and VPCs
+(Correct)
+ EC2 instances can access files on an EFS file system across many Availability Zones and VPCs
+EC2 instances can access files on an EFS file system across many Availability Zones
+ EC2 instances can access files on an EFS file system only in one Availability Zone
+
+15)Which of the following are correct statements regarding the AWS Shared Responsibility Model? (Select two)
+	 
+AWS is responsible for Security "of" the Cloud
+(Correct)
+For abstracted services like Amazon S3, AWS operates the infrastructure layer, the operating system, and platforms
+(Correct)
+For a service like Amazon EC2, that falls under Infrastructure as a Service, AWS is responsible for maintaining guest operating system
+AWS is responsible for training AWS and customer employees on AWS products and services
+Configuration Management is the responsibility of the customer
+
+16)Amazon CloudWatch billing metric data is stored in which AWS Region?
+ 
+In the AWS Region where the AWS account is created
+	 
+US East (N. Virginia) - us-east-1
+(Correct)
+	 
+In the AWS Region where the AWS resource is provisioned
+ 
+US West (N. California) - us-west-1
+
+17)Which of the following statements are CORRECT about the AWS Auto Scaling group? (Select two)
+ 
+Auto Scaling group scales out and adds more number of EC2 instances to match an increase in demand
+(Correct)
+	 
+Auto Scaling group scales down and reduces the number of EC2 instances to match a decrease in demand
+	 
+Auto Scaling group scales up and upgrades to a more powerful EC2 instance to match an increase in demand
+	 
+Auto Scaling group scales down and downgrades to a less powerful EC2 instance to match a decrease in demand
+ 
+Auto Scaling group scales in and reduces the number of EC2 instances to match a decrease in demand
+(Correct)
+
+
+
+18)Compared to the On-demand prices, what is the highest possible discount offered for reserved instances?
+	 
+72
+(Correct)
+ 
+50
+	 
+40
+	 
+90
+
+
+19)Which of the following is a part of the AWS Global Infrastructure?
+	 
+Virtual Private Network (VPN)
+
+Virtual Private Cloud (VPC)
+
+Subnets
+
+Region
+(Correct)
+
+20)A financial services company must meet compliance requirements that mandate storing multiple copies of data in geographically distant locations. As the company uses S3 as its main storage service, which of the following represents the MOST resource-efficient solution for this use-case?
+ 
+Run a daily job on an EC2 instance to copy objects into another Region
+ 
+Use Cross-Region replication (CRR) to replicate data between distant AWS Regions
+(Correct)
+ 
+For every new object, trigger a lambda function to write data into a bucket in another AWS Region
+	 
+Use Same-Region replication (SRR) to replicate data between distant AWS Regions
+
+
+21)Which of the following is correct regarding the AWS Shield Advanced pricing?
+ 
+AWS Shield Advanced is a free service for all AWS Support plans
+ 
+AWS Shield Advanced is a free service for AWS Enterprise Support plan
+ 
+AWS Shield Advanced offers protection against higher fees that could result from a DDoS attack
+(Correct)
+ 
+AWS Shield Advanced is a free service for AWS Business Support plan
+
+
+22)Which AWS service will you use to privately connect your VPC to Amazon S3?
+ 
+AWS Direct Connect
+	 
+AWS Transit Gateway
+	 
+VPC Endpoint Gateway
+(Correct)
+ 
+Amazon API Gateway
+
+
+23)An AWS user is trying to launch an EC2 instance in a given region. What is the region-specific constraint that the Amazon Machine Image (AMI) must meet so that it can be used for this EC2 instance?
+	 
+You should use an AMI from the same region, as it improves the performance of the EC2 instance
+ 
+An AMI is a global entity, so the region is not applicable
+ 
+You can use an AMI from a different region, but it degrades the performance of the EC2 instance
+ 
+You must use an AMI from the same region as that of the EC2 instance. The region of the AMI has no bearing on the performance of the EC2 instance
+(Correct)
+
+24)Which AWS service can be used as an in-memory database with high-performance and low latency?
+ 
+Amazon Athena
+	 
+Amazon DynamoDB
+	 
+Amazon RDS
+	 
+Amazon ElastiCache
+(Correct)
+
+25)Which AWS services support High Availability by default? (Select two)
+ 
+Instance Store
+ 
+EBS
+ 
+EFS
+(Correct)
+ 
+DynamoDB
+(Correct)
+
+Redshift
+
+
+
+26)A startup wants to set up its IT infrastructure on AWS Cloud. The CTO would like to receive detailed reports that break down the startup's AWS costs by the hour in an S3 bucket. As a Cloud Practitioner, which AWS service would you recommend for this use-case?
+
+AWS Cost Explorer
+
+AWS Total Cost of Ownership (TCO) Calculator
+	 
+AWS Budgets
+
+AWS Cost and Usage Reports (Correct)
+
+
+
+27)Which of the following statements are CORRECT regarding Security Groups and Network Access Control Lists (NACLs)? (Select two)
+	 
+A Security Group contains a numbered list of rules and evaluates these rules in the increasing order while deciding whether to allow the traffic
+ 
+A Security Group is stateless, that is, the return traffic must be explicitly allowed
+ 
+A Security Group is stateful, that is, it automatically allows the return traffic
+(Correct)
+ 
+A NACL is stateful, that is, it automatically allows the return traffic
+ 
+A NACL contains a numbered list of rules and evaluates these rules in the increasing order while deciding whether to allow the traffic
+(Correct)
+
+28)Which S3 storage class offers the lowest availability?
+ 
+S3 Intelligent-Tiering
+ 
+S3 One Zone-IA
+(Correct)
+
+S3 Glacier
+
+S3 Standard
+
+
+29)Under the AWS Shared Responsibility Model, which of the following is the responsibility of a customer regarding lambda functions?
+	 
+Patch underlying OS for the lambda function infrastructure
+ 
+Maintain versions of a lambda function
+(Correct)
+ 
+Maintain all runtime environments for lambda functions
+
+Configure networking infrastructure for the lambda functions
+
+
+30)Enterprise environments are often a mix of cloud, on-premises data centers, and edge locations. Which Cloud deployment model does this refer to?
+ 
+Public Cloud
+
+Private Cloud
+ 
+On-premises
+ 
+Hybrid Cloud
+(Correct)
+
+31)Which of the following AWS services is an example of Software as a Service (SaaS)?
+
+AWS Elastic Beanstalk
+
+Amazon Elastic Compute Cloud (Amazon EC2)
+ 
+Amazon Simple Storage Service (Amazon S3)
+(Correct)
+
+AWS Storage Gateway
+
+
+32)Which AWS service can help you forecast your next AWS bill for the services you use?
+	 
+AWS Billing and Cost Management
+ 
+AWS Total Cost of Ownership (TCO) Calculator
+ 
+AWS Cost Explorer
+(Correct)
+
+AWS Simple Monthly Calculator
+
+
+33)Which of the following capabilities does Amazon Rekognition provide as a ready-to-use feature?
+	 
+Resize images quickly
+ 
+Human pose detection
+ 
+Convert images into greyscale
+ 
+Identify objects in a photo
+(Correct)
+
+
+
+34)According to the AWS Shared Responsibility Model, which of the following are responsibilities of the customer (select 2)?
+	 
+Ensuring AWS employees cannot access customer data
+ 
+AWS Global Network Security
+	 
+Operating system patches and updates of an EC2 instance
+(Correct)
+	 
+Compliance validation of Cloud infrastructure
+ 
+Enabling data encryption of data stored in S3 buckets
+(Correct)
+
+
+35)Which of the following improves the availability for a fleet of EC2 instances?
+
+Deploy the EC2 instances across different AWS Regions of the same Availability Zone
+ 
+Deploy the EC2 instances in the same Availability Zone across two different AWS Regions
+
+Deploy the EC2 instances in the same Availability Zone of an AWS Region
+
+Deploy the EC2 instances across different Availability Zones in the same AWS Region
+(Correct)
+
+36)An IT company is on a cost-optimization spree and wants to identify all EC2 instances that are under-utilized. Which AWS service can be used to address this use-case?
+
+AWS Cost and Usage Reports
+
+Amazon CloudWatch
+
+AWS Trusted Advisor
+(Correct)
+
+AWS Cost Explorer
+
+37)Which AWS service can be used to execute code triggered by new files being uploaded to S3?
+
+ECS
+
+Lambda
+(Correct)
+
+SQS
+
+EC2
+
+
+
+38)Gmail is an example of which of the following Cloud Computing Models?
+
+Platform as a Service (PaaS)
+
+Software as a Service (SaaS)
+(Correct)
+
+Infrastructure as a Service (IaaS)
+ 
+Function as a Service (FaaS)
+
+
+39)Which of the following AWS services are regional in scope? (Select two)
+ 
+AWS WAF
+ 
+AWS Identity and Access Management (IAM)
+ 
+AWS Lambda
+(Correct)
+
+Amazon Rekognition
+(Correct)
+ 
+Amazon CloudFront
+
+
+
+40)Which AWS Support plan guarantees a case response time of 15 minutes when Business Critical systems are down?
+ 
+Enterprise
+(Correct)
+ 
+Business
+
+Basic
+ 
+Developer
+
+
+41)Amazon Macie discovers and protects your sensitive data on which of the following AWS services?
+ 
+Amazon Simple Storage Service (Amazon S3)
+(Correct)
+
+AWS Storage Gateway
+ 
+Amazon Elastic Block Store (Amazon EBS)
+ 
+Amazon Elastic File System (Amazon EFS)
+
+
+
+42)Which pillar of the AWS Well-Architected Framework recommends maintaining infrastructure as code?
+
+Security
+
+Operational Excellence
+(Correct)
+ 
+Cost Optimization
+ 
+Performance Efficiency
+
+
+43)A company has a static website hosted on an S3 bucket in an AWS Region in Asia. Although most of its users are in Asia, now it wants to drive growth globally. How can it improve the global performance of its static website?
+ 
+Use CloudFront to improve the performance of your website
+(Correct)
+
+Use CloudWatch to improve the performance of your website
+
+Use S3 Transfer Acceleration to improve the performance of your website
+
+Use WAF to improve the performance of your website
+
+
+44)An IT company has a hybrid cloud architecture and it wants to centralize the server logs for its EC2 instances and on-premises servers. Which of the following is the MOST effective for this use-case?
+ 
+Use CloudWatch Logs for both the EC2 instance and the on-premises servers
+(Correct)
+
+Use CloudWatch Logs for the EC2 instance and CloudTrail for the on-premises servers
+ 
+Use AWS Lambda to send log data from EC2 instance as well as on-premises servers to CloudWatch Logs
+
+Use CloudTrail for the EC2 instance and CloudWatch Logs for the on-premises servers
+
+
+
+45)Which AWS service will you use if you have to move large volumes of on-premises data to AWS Cloud from a remote location with limited bandwidth?
+
+AWS Transit Gateway
+
+AWS Snowball
+(Correct)
+
+AWS Virtual Private Network (VPN)
+
+AWS Direct Connect
+
+
+
+46)AWS Trusted Advisor analyzes your AWS environment and provides best practice recommendations for which of the following categories? (Select two)?
+
+Documentation
+
+Cost Optimization
+(Correct)
+
+Service Limits
+(Correct)
+
+Elasticity
+
+Change Management
+
+
+47)As a Cloud Practitioner, which S3 storage class would you recommend for data archival?
+
+S3 Standard
+
+S3 Intelligent-Tiering
+
+S3 Glacier
+(Correct)
+
+S3 One Zone-IA
+
+
+
+
+48)Which of the following AWS services offer block-level storage? (Select two)
+
+Instance Store
+(Correct)
+
+S3
+
+EFS
+
+EBS
+(Correct)
+
+ECS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

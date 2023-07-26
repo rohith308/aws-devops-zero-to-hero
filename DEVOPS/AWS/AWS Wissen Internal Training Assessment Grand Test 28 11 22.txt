@@ -1,0 +1,354 @@
+
+
+
+
+
+
+1.Which Amazon EC2 billing option gives you low cost, maximum flexibility, no upfront costs or commitment, and you only pay for what you use?
+	 
+Reserved Instances
+Spot Instances
+Dedicated Host
+On-Demand Instances
+
+
+2.The AWS acceptable use policy for penetration testing allows?
+	 
+Customers to carry out security assessments or penetration tests against their AWS infrastructure after obtaining authorization from AWS
+Customers to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for selected services
+AWS to perform penetration testing against customer resources without notification
+Authorized security assessors to perform penetration tests against any AWS customer without authorization
+
+3.When using Amazon RDS databases, which items are you charged for? (Select TWO.)
+	 
+Backup up to the DB size	 
+Outbound data transfer
+ Single AZ	 
+Inbound data transfer	 
+Multi AZ
+
+
+4.Which of the options below are recommendations in the reliability pillar of the well-architected framework? (Select TWO.)
+	 
+Stop guessing about capacity   
+Manually recover from failure   	 
+Test recovery procedures
+Manage change in manual processes   	 
+Scale vertically using big systems   
+
+
+5.Which AWS service allows you to automate the evaluation of recorded configurations against desired configuration?
+	 
+AWS Config
+AWS OpsWorks	 
+AWS Service Catalog	 
+AWS CloudFormation
+
+
+6.Which service can be used to manage configuration versions?
+ 
+AWS Config
+AWS Artifact
+Amazon Inspector
+AWS Service Catalog
+
+
+7.Which service can be used to assign a policy to a group?
+	 
+Amazon Cognito
+AWSn STS
+AWS Shield
+AWS IAM
+
+
+8.An organization has an on-premises cloud and accesses their AWS Cloud over the Internet. How can they create a private hybrid cloud connection that avoids the internet?
+	 
+AWS Direct Connect
+AWS Managed VPN	 
+AWS VPC Endpoint	 
+AWS VPN CloudHub
+
+
+9.Which type of connection should be used to connect an on-premises data center with the AWS cloud that is high speed, low latency and does not use the Internet?
+	 
+Client VPN
+AWS Managed VPN
+VPC Endpoints
+Direct Connect
+
+
+
+10.What does an organization need to do to move to another AWS region?
+ 
+Submit an application to extend their account to the additional region
+Create a separate IAM account for that region
+Apply for another AWS account in that region
+Just start deploying resources in the additional region
+
+
+
+11.Which statement is correct in relation to the AWS Shared Responsibility Model?   
+ 
+AWS are responsible for the security of regions and availability zones   
+AWS are responsible for encrypting customer data   
+Customers are responsible for security of the cloud
+Customers are responsible for patching storage systems   
+
+
+12.The ability to horizontally scale Amazon EC2 instances based on demand is an example of which concept?
+	 
+High availability
+Elasticity
+Economy of scale
+Agility
+
+13.Which team is available to support AWS customers on an Enterprise support plan with account issues?
+	 
+AWS Technical Account Manager
+AWS Technical Support
+AWS Billing and Accounts   
+AWS Concierge
+
+
+
+14.Which Amazon EC2 pricing model should be used to comply with per-core software license requirements?
+	 
+Dedicated Hosts
+Spot Instances
+On-Demand Instances
+Reserved Instances
+
+
+
+
+15.Which storage type can be mounted using the NFS protocol to many EC2 instances simultaneously?
+	 
+Amazon S3
+Amazon Instance Store
+Amazon EBS
+Amazon EFS
+
+
+
+16.When performing a total cost of ownership (TCO) analysis between on-premises and the AWS Cloud, which factors are only relevant to on-premises deployments? (Select TWO.)
+	 
+Facility operations costs
+Application licensing
+Operating system licensing
+Hardware procurement teams
+Database administration
+
+
+
+17.Which service can be added to a database to provide improved performance for some requests?
+	 
+Amazon EFS
+Amazon RDS
+Amazon ElastiCache
+Amazon RedShift
+
+
+
+
+18.What billing timeframes are available for Amazon EC2 on-demand instances? (Select TWO.)
+	 
+Per second
+Per minute
+Per hour
+Per day
+Per week
+
+
+19.Which tool can be used to create alerts when the actual or forecasted cost of AWS services exceed a certain threshold?
+	 
+AWS CloudTrail
+AWS Cost Explorer
+AWS Cost and Usage report
+AWS Budgets
+
+
+
+20.Which type of security control can be used to deny network access from a specific IP address?
+	 
+AWS Shield
+Network ACL
+AWS WAF
+Security Group
+
+
+21.Which of the following is an advantage of cloud computing compared to deploying your own infrastructure on-premise?
+	 
+Paying only for what you use
+Flexibility to choose your own hardware
+Spend using a CAPEX model
+Ability to choose bespoke infrastructure configurations   
+
+
+22.To reduce the price of your Amazon EC2 instances, which term lengths are available for reserved instances? (Select TWO.)
+ 
+3 years
+4 years
+1 year
+5 years
+2 years
+
+23.Which type of AWS Storage Gateway can be used to backup data with popular backup software?
+	 
+Gateway Virtual Tape Library
+Volume Gateway	 
+Backup Gateway	 
+File Gateway
+
+
+24.Which of the following need to be included in a total cost of ownership (TCO) analysis? (Select TWO.)
+	 
+Company wide marketing
+ Facility equipment installation
+Application development
+ Data center security costs
+IT Manager salary
+
+
+25.Which of the following is a benefit of moving to the AWS Cloud?
+	 
+Pay for what you use
+Capital purchases	 
+Outsource all IT operations	 
+Long term commitments
+
+
+26.What is the most cost-effective Amazon S3 storage tier for data that is not often accessed but requires high availability?
+	 
+Amazon Glacier	 
+Amazon S3 One Zone-IA	 
+Amazon S3 Standard	 
+Amazon S3 Standard-IA
+
+27.Which of the following can be assigned to an IAM user? (Select TWO.)
+	 
+A key pair
+An access key ID and secret access key
+ An SSL/TLS certificate
+ A password for access to the management console
+A password for logging into Linux
+
+
+28.What is the difference between an EBS volume and an Instance store?
+	 
+Instance store volumes are ephemeral whereas EBS volumes are persistent storage   
+EBS volumes are file-level storage devices whereas Instance store volumes are object-based   	 
+Instance store volumes can be used with all EC2 instance types whereas EBS cannot   	 
+EBS volumes are object storage devices whereas Instance store volume are block based   
+
+
+29.What types of monitoring can Amazon CloudWatch be used for? (Select TWO.)
+	 
+Data center	 
+Operational health
+Infrastructure
+Application performance
+API access
+
+
+30.Which services can be used for asynchronous integration between application components? (Select TWO.)
+
+Amazon SQS
+Amazon Step Functions
+Amazon EC2 Auto Scaling
+AWS CloudFormation
+AWS Route 53
+
+
+
+31.Which of the below are components that can be configured in the VPC section of the AWS management console? (Select TWO.)
+	 
+Subnet
+ EBS volumes
+Endpoints
+Elastic Load Balancer
+DNS records
+
+32.What are two components of Amazon S3? (Select TWO.)
+	 
+Directories
+File systems
+Objects
+
+Block devices
+	 
+Buckets
+
+
+
+
+33.What is the benefit of using fully managed services compared to deploying 3rd party software on EC2?
+
+
+You have greater control and flexibility
+Improved security
+Reduced operational overhead
+
+You don’t need to back-up your data
+
+
+34.Which statement is true in relation to data stored within an AWS Region?
+	 
+Data is always replicated to another region	 
+Data is not replicated outside of a region unless you configure it
+ 
+Data is automatically archived after 90 days	 
+Data is always automatically replicated to at least one other availability zone
+
+
+35.Which service can be used to improve performance for users around the world?
+	 
+Amazon ElastiCache	 
+AWS LightSail
+Amazon CloudFront
+ 
+Amazon Connect
+
+36.What is the scope of an Amazon Virtual Private Cloud (VPC)?
+	 
+It spans all Availability Zones within a region
+
+It spans a single CIDR block   	 
+It spans all Availability Zones in all regions	 
+It spans multiple subnets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

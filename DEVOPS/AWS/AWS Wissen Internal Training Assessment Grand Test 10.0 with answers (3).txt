@@ -1,0 +1,550 @@
+
+
+
+
+....
+
+
+1.Which Amazon EC2 Reserved Instance type enables you to match your capacity reservation to predictable recurring dates and times?
+	 
+Convertible RI
+	 
+Standard RI
+	 
+Customized RI
+	 
+Scheduled RI
+(Correct)
+
+
+2.Which of the options below are recommendations in the cost optimization pillar of the well-architected framework? (Select TWO.)
+	 
+Analyze and attribute expenditure
+(Correct)
+	 
+Adopt a capital expenditure model   
+	 
+Start spending money on data center operations   
+	 
+Manage your services independently
+(Incorrect)
+	 
+Adopt a consumption model
+(Correct)
+
+
+
+3. Which service allows an organization to view operational data from multiple AWS services through a unified user interface and automate operational tasks?
+	 
+Amazon CloudWatch
+
+	 
+AWS Systems Manager
+(Correct)
+	 
+AWS Config
+	 
+AWS OpsWorks
+
+
+
+4.Which statement best describes elasticity in the cloud?
+ 
+The ability for a system to recover from the failure of a single component   
+	 
+A flexible model of code development that results in faster deployment times   
+	 
+A pricing model that allows upfront payments and term commitments to reduce cost   
+	 
+The ability to scale resources up or down and only pay for what you use   
+(Correct)
+
+
+5.Which pricing options are available when using Amazon EC2 Reserved Instances? (Select TWO.)
+	 
+Mainly upfront
+Capacity upfront
+Partial upfront
+(Correct)
+Enterprise upfront
+All upfront
+(Correct)
+
+6.Which of the options below are recommendations in the security pillar of the well-architected framework? (Select TWO.)
+	 
+Apply security at the application layer
+	 
+Automate security best practices
+(Correct)
+	 
+Protect data when it is at rest only
+	 
+Enable traceability
+(Correct)
+	 
+Expect to be secure
+
+
+7.Which AWS service does API Gateway integrate with to enable users from around the world to achieve the lowest possible latency for API requests and responses?   
+	 
+AWS Direct Connect
+	 
+Amazon S3 Transfer Acceleration
+	 
+Amazon CloudFront
+(Correct)
+	 
+AWS Lambda
+
+
+
+8.What are the benefits of using reserved instances? (Select TWO.)
+	 
+Uses dedicated hardware
+	 
+Reserve capacity
+(Correct)
+	 
+More flexibility
+	 
+Reduced cost
+(Correct)
+	 
+High availability
+
+
+
+9.An Amazon EC2 instance running the Amazon Linux 2 AMI is billed in what increment?
+	 
+Per GB
+	 
+Per hour
+	 
+Per CPU
+	 
+Per second
+(Correct)
+
+10.Which Amazon EC2 pricing model is the most cost-effective for an always-up, right-sized database server running a project that will last 1 year?
+	 
+On-Demand Instances
+	 
+Spot Instances
+	 
+Convertible Reserved Instances
+	 
+Standard Reserved Instances
+(Correct)
+
+
+
+11.What technology enables compute capacity to adjust as loads change?
+	 
+Automatic failover
+ 
+Auto Scaling
+(Correct)
+	 
+Load balancing
+	 
+Round robin
+
+12.Which database allows you to scale at the push of a button without incurring any downtime?
+	 
+Amazon RedShift
+	 
+Amazon RDS
+	 
+Amazon DynamoDB
+(Correct)
+	 
+Amazon EMR
+
+
+
+13.Which IAM entity can be used for assigning permissions to AWS services?
+	 
+Security Token Service (STS)
+	 
+IAM Role
+(Correct)
+	 
+IAM Access Key ID and Secret Access Key
+	 
+IAM Policy
+
+14.How can a company separate costs for storage, Amazon EC2, Amazon S3, and other AWS services by department?
+	 
+Create a separate VPC for each department
+	 
+Add department-speciﬁc tags to each resource
+(Correct)
+	 
+Create a separate AWS account for each department
+	 
+Use AWS Organizations
+
+
+15.You have been running an on-demand Amazon EC2 instance running Linux for 4hrs, 5 minutes and 6 seconds. How much time will you be billed for?
+	 
+4hrs
+4hrs, 5mins, and 6 seconds
+(Correct)
+5hrs
+4hrs, 6mins
+
+16.Which service can an organization use to track API activity within their account?
+	 
+Amazon CloudWatch
+	 
+AWS CloudHSM
+	 
+AWS IAM
+	 
+AWS CloudTrail
+(Correct)
+
+
+
+17.Which AWS database service provides a fully managed data warehouse that can be analyzed using SQL tools and business intelligence tools?   
+	 
+Amazon RedShift
+(Correct)
+ 
+Amazon DynamoDB   
+ 
+Amazon RDS
+	 
+Amazon ElastiCache
+
+18.Under the AWS shared responsibility model, which of the following is an example of security in the AWS Cloud?
+	 
+Physical security
+	 
+Global infrastructure
+	 
+Managing edge locations
+	 
+Firewall conﬁguration
+(Correct)
+
+
+19.What are Edge locations used for?
+	 
+They are used by CloudFront for caching content
+(Correct)
+	 
+They are used for terminating VPN connections
+	 
+They are used by regions for inter-region connectivity   
+	 
+They are the public-facing APIs for Amazon S3   
+
+
+20.What is a specific benefit of an Enterprise Support plan?
+	 
+Included AWS Solutions Architect
+	 
+Included Technical Support Manager
+	 
+Included Cloud Support Associate
+	 
+Included Technical Account Manager
+(Correct)
+
+
+21.Which IAM entity is associated with an access key ID and secret access key?
+	 
+IAM Group	 
+IAM Role	 
+IAM Policy	 
+IAM User
+(Correct)
+
+
+22.Under the AWS shared responsibility model what is AWS responsible for? (Select TWO.)
+	 
+Patch management of operating systems
+	 
+Encryption of customer data
+	 
+Physical security of the data center
+(Correct)
+ 
+Replacement and disposal of disk drives
+(Correct)
+ 
+Configuration of security groups
+
+23.Which service can be used to easily create multiple accounts?
+
+Amazon Connect
+	 
+AWS Organizations
+(Correct)
+	 
+AWS CloudFormation
+	 
+AWS IAM
+
+
+24.How can an organization track resource inventory and configuration history for the purpose of security and regulatory compliance?
+	 
+Run a report with AWS Artifact	 
+Create an Amazon CloudTrail trail	 
+Configure AWS Config with the resource types
+(Correct)	 
+Implement Amazon GuardDuty
+
+
+25.When using Amazon IAM, what authentication methods are available to use? (Select TWO.)
+	 
+AES 256
+	 
+Server certificates
+(Correct)
+ 
+Client certificates   
+	 
+Access keys
+(Correct)
+	 
+AWS KMS
+
+
+
+26.What is a benefit of moving an on-premises database to Amazon Relational Database Service (RDS)?
+	 
+There is no database administration required	 
+You can run any database engine	 
+There is no need to manage operating systems
+(Correct)	 
+You can scale vertically without downtime
+
+
+27.Which AWS support plan comes with a Technical Account Manager (TAM)?
+
+Developer
+Enterprise
+(Correct)
+Basic
+Business
+
+
+28.Which AWS service provides on-demand downloads of AWS security and compliance reports?
+	 
+AWS Trusted Advisor
+	 
+Amazon Inspector
+	 
+AWS Artifact
+(Correct)
+	 
+AWS Directory Service
+
+
+29.Which of the below is a fully managed Amazon search service based on open source software?
+	 
+Amazon CloudSearch
+	 
+AWS Elastic Beanstalk
+	 
+Amazon Elasticsearch
+(Correct)
+	 
+AWS OpsWorks
+
+
+30.Which of the below is an example of an architectural benefit of moving to the cloud?
+
+Proprietary hardware
+ Elasticity
+(Correct)
+Monolithic services
+ Vertical scalability
+
+31.Which service provides a way to convert video and audio files from their source format into versions that will playback on devices like smartphones, tablets and PCs?
+	 
+Amazon Comprehend
+	 
+Amazon Rekognition
+	 
+AWS Glue
+	 
+Amazon Elastic Transcoder
+(Correct)
+
+
+32.You are concerned that you may be getting close to some of the default service limits for several AWS services. What AWS tool can be used to display current usage and limits?   
+	 
+AWS Personal Health Dashboard
+	 
+AWS Systems Manager
+	 
+AWS Trusted Advisor
+(Correct)
+	 
+AWS CloudWatch   
+
+
+
+33.To ensure the security of your AWS account, what are two AWS best practices for managing access keys? (Select TWO.)
+	 
+Don’t create any access keys, use IAM roles instead   
+	 
+Use MFA for access keys
+	 
+Where possible, use IAM roles with temporary security credentials   
+(Correct)
+	 
+Don’t generate an access key for the root account user   
+(Correct)
+	 
+Rotate access keys daily
+
+
+34.Which feature enables fast, easy, and secure transfers of files over long distances between a client and an Amazon S3 bucket?
+	 
+Multipart Upload
+	 
+S3 Static Websites   
+	 
+S3 Copy
+	 
+S3 Transfer Acceleration
+(Correct)
+
+
+35.Which service can be used to cost-effectively move exabytes of data into AWS?
+	 
+S3 Cross-Region Replication (CRR)
+	 
+AWS Snowmobile
+(Correct)
+
+S3 Transfer Acceleration
+	 
+AWS Snowball
+
+
+36.When using AWS Organizations with consolidated billing what are two valid best practices? (Select TWO.)
+	 
+Always enable multi-factor authentication (MFA) on the root account   
+(Correct)
+	 
+The paying account should be used for billing purposes only   
+(Correct)
+	 
+Always use a straightforward password on the root account   
+	 
+Use the paying account for deploying resources   
+	 
+Never exceed the limit of 20 linked accounts   
+
+
+37.You need to run a production process that will use several EC2 instances and run constantly on an ongoing basis. The process cannot be interrupted or restarted without issue. What EC2 pricing model would be best for this workload?
+	 
+Flexible instances
+	 
+On-demand instances
+	 
+Reserved instances
+(Correct)
+ 
+Spot instances
+
+
+38.What are the benefits of using Amazon Rekognition with image files?
+	 
+Can help with image compression
+	 
+Can be used to transcode audio
+	 
+Can be used to identify objects in an image
+(Correct)
+	 
+Can be used to resize images
+
+
+39.Which AWS service lets you use Chef and Puppet to automate how servers are configured, deployed, and managed across your Amazon EC2 instances or on-premises compute environments?
+	 
+AWS OpsWorks
+(Correct)
+	 
+AWS Systems Manager
+	 
+AWS Elastic Beanstalk
+	 
+AWS CloudFormation
+
+
+40.Which AWS tools can be used for automation? (Select TWO.)
+	 
+Amazon Elastic File System (EFS)
+	 
+AWS CloudFormation
+(Correct)
+ 
+Elastic Load Balancing
+	 
+AWS Lambda
+	 
+AWS Elastic Beanstalk
+(Correct)
+
+
+41Which AWS services can be used as infrastructure automation tools? (Select TWO.)
+	 
+AWS CloudFormation
+(Correct)
+	 
+Amazon CloudFront
+	 
+AWS OpsWorks
+(Correct)
+ 
+AWS Batch
+	 
+Amazon QuickSight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

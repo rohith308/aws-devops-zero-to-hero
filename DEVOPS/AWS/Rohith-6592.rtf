@@ -1,0 +1,173 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\colortbl ;\red0\green255\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\li540\sa200\sl276\slmult1\tx450\f0\fs22\lang9 Question 1: Stackset are created in the AWS account which is a administrator account\par
+\f1\bullet FALSE\par
+\highlight1\b\bullet TRUE\highlight0\b0\par
+Explanation\f0\lang1033 :\par
+\b\fs28 An administrator account is the AWS account in which you create stack sets. For stack sets with service-managed permissions, the administrator account is either the organization's management account or a delegated administrator account.\par
+\b0\fs22  \f1\lang9 Question 2:\f0\lang1033  \f1\lang9 What sections of the AWS CloudFormation template are considered as "required"?\par
+\bullet Transforms\par
+\bullet Outputs\par
+\bullet Conditions\par
+\highlight1\bullet Resource\highlight0\par
+\bullet Metadata\par
+Explanation\f0\lang1033 :\par
+\b\fs28 The Resources section is the only required section. Some sections in a template can be in any order. However, as you build your template, it can be helpful to use the logical order shown in the following list because values in one section might refer to values from a previous section.\b0\f1\fs22\lang9\par
+Question 3:Description Section in the AWS Cloudformation template can exists independent of Format Version Section.\par
+\highlight1\bullet FALSE\highlight0\par
+\bullet TRUE\par
+Explanation\f0\lang1033 :\par
+\b\fs28 You can author AWS CloudFormation templates in JSON or YAML formats. We support all AWS CloudFormation features and functions for both formats, including in AWS CloudFormation Designer.\par
+\b0\f1\fs22\lang9 Question 4:A stackset created in one regions , can be viewed or modified in multiple regions\par
+\highlight1\bullet FALSE\highlight0\par
+\bullet TRUE\par
+Explanation\f0\lang1033 :\par
+\b\fs28 A stack set is a regional resource. If you create a stack set in one AWS Region, you can only see or change it when viewing that Region.\par
+\b0\f1\fs22\lang9 Question 5:You are trying to delete the stack instance, but the operation failed. What is thereason?\par
+\bullet you cannot delete individual instances\par
+\bullet Retain stack option is selected\par
+\highlight1\bullet Terminationprotection is enabled\highlight0\par
+\bullet Delete stack option is disabled\par
+Explanation\f0\lang1033 :\par
+\b\fs28 Cause: Stack deletion will fail for any stacks on which termination protection has been enabled. Solution: Determine if termination protection has been enabled for the stack. If it has, disable termination protection and then perform the stack instance deletion again.\par
+\b0\f1\fs22\lang9 Question 6:During resource import operation,AWS CloudFormation performs several validations which are:\par
+\highlight1\bullet All of these\highlight0\par
+\bullet Properties and configuration values for each resource to import adhere to the resource type schema\par
+\bullet Resource to import does not belong to another stack in the same Region\par
+\bullet Resource to import exists\par
+\bullet Required properties are specified in the template\par
+Explanation\f0\lang1033 :\par
+\b\fs28 During an import operation, CloudFormation performs the following validations. The resource to import exists. The properties and configuration values for each resource to import adhere to the resource type schema, which defines its accepted properties, required properties, and supported property values.\par
+\b0\f1\fs22\lang9  Question 7:AWS::CloudFormation::Interface is a metadata key which can be used with\par
+\bullet AWS CloudFormation CLI\par
+\bullet All of these\par
+\highlight1\bullet AWS CloudFormation console\par
+\highlight0\bullet AWS CloudFormation API Calls\par
+Explanation\f0\lang1033 :\par
+\b\fs28 AWS::CloudFormation::Interface is a metadata key that defines how parameters are grouped and sorted in the AWS CloudFormation console. When you create or update stacks in the console, the console lists input parameters in alphabetical order by their logical IDs.\par
+\b0\fs22  \f1\lang9 Question 8:A stack instance can exist without a stack\par
+\highlight1\bullet TRUE\highlight0\par
+\bullet FALSE\par
+Explanation\f0\lang1033 :\par
+\b\fs28 A stack instance can exist without a stack\f1\emdash for example, if the stack couldn't be created for some reason. A stack instance is associated with only one stack set. Each stack instance contains the ID of its associated stack set, in addition to the ID of the actual stack and the stack status.\f0\par
+\b0\fs22  \lang9 Question 9:If you want the cfn-init to process configuration sections other than the default you must provide\par
+\highlight1\f1\bullet ConfigSets\highlight0\par
+\bullet config sections\par
+\bullet you cannot change the default order\par
+\bullet config keys\par
+\bullet config files\par
+Explanation\f0\lang1033 :\par
+\b\fs28 A stack instance can exist without a stack\f1\emdash for example, if the stack couldn't be created for some reason. A stack instance is associated with only one stack set. Each stack instance contains the ID of its associated stack set, in addition to the ID of the actual stack and the stack status.\f0\par
+\b0\f1\fs22\lang9 Question 10:Each resource to import into the stack must have which policy attribute for the import operation to succeed?\par
+\highlight1\bullet Deletion Policy\highlight0\par
+\bullet Update Policy\par
+\bullet Creation Policy\par
+\bullet Retain Policy\par
+Explanation\f0\lang1033 :\par
+\b\fs28 Each resource to import must have a DeletionPolicy attribute for the import operation to succeed. The DeletionPolicy can be set to any possible value. Only target resources need a DeletionPolicy . Resources that are already part of the stack don't need a DeletionPolicy .\par
+\b0\f1\fs22\lang9 Question 11:What are the two types of transforms that are supported by AWS CloudFormation? (Select 2)\par
+\bullet AWS::Server\par
+\bullet AWS::Enable\par
+\bullet\highlight1 AWS::Include\highlight0\par
+\bullet AWS::Instance\par
+\bullet\highlight1 AWS::Serverless\highlight0\par
+Explanation\f0\lang1033 :\par
+\b\fs28 AWS::Include transform enables you to insert boilerplate template snippets into your templates. AWS::Serverless transform takes an entire template written in the AWS Serverless Application Model (AWS SAM) syntax and transforms and expands it into a compliant AWS CloudFormation template.\par
+\b0\f1\fs22\lang9 Question 12:\par
+During stack update,metadata section can be updated independent of the changes such as addition, modification or deletion of resources\par
+\highlight1\bullet FALSE\highlight0\par
+\bullet TRUE\par
+Explanation\f0\lang1033 :\par
+\b\f1\fs28\lang9 During a stack update, you cannot update the Metadata section by itself. You can update it only when you include changes that add, modify, or delete resources.\par
+\b0\fs22 Question 13:How can Stacksets be deployed automatically to all accounts that are added to target organization or organizational units (OU)?\par
+\highlight1\bullet Enable automatic depployments for the stackset\highlight0\par
+\bullet Automatic deployment feature is not available for the stackset\par
+\bullet Enable automatic deployments for all the stack instances\par
+Explanation\f0\lang1033 :\par
+\b\fs28 With automatic deployment enabled, StackSets automatically deploys to accounts that are added to the target organization or organizational units (OUs) in the future. With retain stacks enabled, when an account is removed from a target OU, stack resources in the account are retained.\f1\lang9\par
+\b0\fs22 Question 14:You can import same resource in multiple stacks\par
+\highlight1\bullet FALSE\highlight0\par
+\bullet TRUEE\par
+\f0\lang1033 E\f1\lang9 xplanation\f0\lang1033 :\par
+\b\fs28 You can't import the same resource into multiple stacks. You can use the cloudformation:ImportResourceTypes IAM policy condition to control which resource types IAM users can work with during an import operation. The AWS CloudFormation stack limits apply when importing resources.\par
+\b0\f1\fs22\lang9 Question 15:During a stack update, You can updateconditions only when you include changes that add, modify,or delete resources.\par
+\highlight1\bullet TRUE\highlight0\par
+\bullet FALSE\par
+Explanation\f0\lang1033 :\par
+\b\fs28 If you want to modify resources and properties that are declared in a stack template, you must modify the stack's template. To ensure that you update only the resources that you intend to update, use the template for the existing stack as a starting point and make your updates to that template. If you are managing your template in a source control system, use a copy of that template as a starting point. Otherwise, you can get a copy of a stack template from AWS CloudFormation.\par
+\b0\f1\fs22\lang9 .\par
+Question 16:What are IAM roles required for the administrator and target accounts for stackset creation? (select 2)\par
+\bullet AWSCloudFormationAdministrationRole\par
+\bullet AWSCloudFormationExecutionRoleStackSet\par
+\bullet\highlight1 AWSCloudFormationStackSetAdministrationRole\highlight0\par
+\bullet\highlight1 AWSCloudFormationStackSetExecutionRole\highlight0\par
+\bullet AWSCloudFormationExecutionRole\par
+Explanation\f0\lang1033 :\par
+\b\f1\fs28\lang9 The role in your administrator account must be named AWSCloudFormationStackSetAdministrationRole. The role in each of your target accounts must be named AWSCloudFormationStackSetExecutionRole.\par
+\b0\fs22 Question 17:Pseudo parameters, parameters or intrinsic functions cannot be included in which section?\par
+\bullet Output section\par
+\bullet Condition section\par
+\bullet Resource section\par
+\highlight1\bullet Mappings section\highlight0\par
+Explanation\f0\lang1033 :\par
+\b\fs28 Pseudo parameters are parameters that are predefined by AWS CloudFormation. You don't declare them in your template. Use them the same way as you would a parameter, as the argument for the Ref function.\par
+\b0\f1\fs22\lang9 Question 18:You can create cross-stack references to export resources across regions\par
+\highlight1\bullet FALSE\highlight0\par
+\bullet TRUE\par
+Explanation\f0\lang1033 :\par
+\b\fs28 You can't create cross-stack references across regions. You can use the intrinsic function Fn::ImportValue to import only values that have been exported within the same region. For outputs, the value of the Name property of an Export can't use Ref or GetAtt functions that depend on a resource.\par
+\b0\fs22  \f1\lang9 Question 19:What can be used while using dynamic parameters in stack template to reference sensitive information? (select 2)\par
+\bullet AWS Secret Services\par
+\highlight1\bullet AWS Secrets Manager\highlight0\par
+\highlight1\bullet AWS Systems Manager Parameter Store\highlight0\par
+\bullet AWS Secure Manager\par
+Explanation\f0\lang1033 :\par
+\b\fs28 Use the secretsmanager dynamic reference to retrieve entire secrets or secret values that are stored in Secrets Manager for use in your templates.\par
+\b0\f1\fs22\lang9 Question 20:How can you verify that a target account meets certain requirements before AWS CloudFormation StackSets begins stack operations in that account?\par
+\bullet you cannot check this, we will only know when stackset operation fails\par
+\bullet target check\par
+\bullet you have manually check each account before proceeding stackset operation\par
+\bullet\highlight1 account gate check\highlight0\par
+Explanation\f0\lang1033 :\par
+\b\fs28 An account gate is an optional feature that lets you specify an AWS Lambda function to verify that a target account meets certain requirements before AWS CloudFormation StackSets begins stack operations in that account.\par
+\b0\f1\fs22\lang9 Question 21:How do you create stacks in multiple regions across multiple accounts?\par
+\bullet Stack group\par
+\bullet\highlight1 Stack Sets\highlight0\par
+\bullet Nested stacks\par
+\bullet Cannot be done\par
+Explanation\f0\lang1033 :\par
+\b\f1\fs28\lang9 A stack set lets you create stacks in AWS accounts across regions by using a single AWS CloudFormation template.\par
+\b0\fs22 Question 22:With Retain stacks selected, if the stack instances are removed from your stack set, what happens to the stacks and its resources in the target accounts?\par
+\highlight1\bullet stacks and resources are retain and are in their current state\par
+\highlight0\bullet stacks are deleted but the resources are retained\par
+\bullet stacks and resources are retained but are inoperable\par
+\bullet stacks are retained but the resources are deleted\par
+Explanation\f0\lang1033 :\par
+\b\fs28 When you save stacks from a stack set by choosing the Retain stacks option, the stack's resources stay in their current state, but the stack is no longer part of the stack set. To reassociate a stack or add an existing stack to a stack set, see Importing a stack into AWS CloudFormation StackSets.\f1\lang9\par
+\b0\fs22 Question 23:What are the parties involved in custom resource creation? (select 3)\par
+\bullet\highlight1 AWS CloudFormation\highlight0\par
+\bullet VPC Endpoint\par
+\bullet\highlight1 template develope\f0\lang1033 r\f1\lang9\par
+\bullet Custom resource provider\par
+\highlight0 Explanation\f0\lang1033 :\b\fs28\par
+Custom Resources allow you to write custom logic in your CloudFormation deployment. You implement the creation, update, and deletion logic to define the custom resource deployment. CDK Implements the AWSCustomResource \f1\emdash  a lambda-backed custom resource that uses the AWS SDK to provision your resources.\f0\par
+\b0\fs22\par
+\f1\lang9 Question 24:To include authentication information for a file or source that you specify with AWS::CloudFormation::Init , you can use which of the following\par
+\bullet\f0\lang1033 A\f1\lang9 WS::CloudFormation::Allowed\par
+\highlight1\bullet\f0\lang1033 A\f1\lang9 WS::CloudFormation::Authenticatio\f0\lang1033 n\highlight0\f1\lang9\par
+\bullet AWS::CloudFormation::Designer\par
+\bullet AWS::CloudFormation::Interface\par
+Explanation\f0\lang1033 :\par
+\b\fs28 To include authentication information for a file or source that you specify with AWS::CloudFormation::Init , use the uris property if the source is a URI or the buckets property if the source is an Amazon S3 bucket. For more information about files, see Files. For more information about sources, see Sources.\par
+\b0\f1\fs22\lang9 Question 25:What is the default order that the cfn-init helper script processes the configuration sections?\par
+\bullet services, commands, sources, files, packages, groups, users\par
+\bullet services, command, packages, files, sources, groups, users\par
+\bullet users, groups, sources, files, packages, commands, services\par
+\bullet\highlight1 packages, groups, users, sources, files, commands, services\highlight0\par
+\bullet packages, users, groups, files, sources, services, commands\par
+Explanation\f0\lang1033 :\par
+\b\fs28 The cfn-init helper script processes these configuration sections in the following order: packages, groups, users, sources, files, commands, and then services.\par
+\b0\f1\fs22\lang9\par
+}
+ 
